@@ -10,7 +10,7 @@ header{
 article{
     padding: 25px 50px 100px;
     font-family: helvetica;
-    transition: background-color 10s ease;
+    transition: background-color 20s ease;
     background-color: rgb(157, 193, 131);
 }
 h1{
@@ -38,7 +38,7 @@ figure{
 
 .pasta {
     float: left;
-    margin: 15px 30px 15px;
+    margin: 15px 30px 50px;
 }
 
 .photos {
