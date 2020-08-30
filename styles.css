@@ -8,7 +8,7 @@ header{
     margin: 10px 1200px 10px;
 }
 article{
-    padding: 25px 50px 75px 100px;
+    padding: 25px 50px 100px;
     font-family: helvetica;
     transition: background-color 10s ease;
     background-color: rgb(157, 193, 131);
@@ -21,17 +21,27 @@ h2{
     font-size: 30px;
 }
 p{
-    margin: 20px 150px 20px;
+    margin: 20px 100px 20px;
     transition: color 5s ease;
     color: black;
 }
-.description {
-    margin: 25px 150px 25px;
-}
-ol{
-    margin: 10px 200px 25px;
-}
-figure{
-    margin: 25px 100px 25px;
+
+.column{
+    float: left;
+    width: 50%;
 }
 
+figure{
+    
+    float: center;
+}
+
+.pasta {
+    float: left;
+    margin: 15px 30px 15px;
+}
+
+.photos {
+    margin: 25px 150px 100px;
+    float: center;
+}
